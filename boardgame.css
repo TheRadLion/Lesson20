@@ -1,0 +1,108 @@
+/* Creatin a dropdown menu */
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    box-shadow: 5px 5px 0px 0px rgb(218, 218, 218);
+}
+
+
+/* Setting the size and style of the dropdown */
+
+.navbar a, .dropbutton {
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.dropbutton, .dropdown-content {
+    background-color: black;
+    border: none;
+    min-width: 125;
+    margin: 0px 0px 0px 0px;
+}
+
+.navbar a:hover, .dropbutton:hover, #menubuttons:hover {
+    background-color: gray;
+}
+
+#bgtext {
+    background-color: rgb(124, 191, 211);
+}
+
+#bgtext:hover {
+    background-color: gray;
+}
+ #aboutbutton:hover, #homemenu:hover {
+     background-color: gray;
+}
+
+/* Setting the color and position of the home button */
+
+#aboutbutton {
+    float: right;
+    background-color: rgb(124, 191, 211);
+}
+
+#homemenu {
+    float: left;
+    background-color: rgb(124, 191, 211);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.activemenuitem {
+    background-color: rgb(124, 191, 211);
+}
+
+.nav-bar {
+    background: linear-gradient(-90deg, rgb(17, 17, 17), rgb(39, 42, 42), rgb(17, 17, 17));
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+#img1 {
+    filter: blur(3px);
+    width: 100%;
+}
+
+
+.container {
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+#article1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 

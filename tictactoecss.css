@@ -1,0 +1,167 @@
+body {
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Creatin a dropdown menu */
+
+.navbar {
+  background-color: black;
+  width: 100%;
+  box-shadow: 5px 5px 0px 0px rgb(218, 218, 218);
+}
+
+
+/* Setting the size and style of the dropdown */
+
+.navbar a, .dropbutton {
+  display: inline-block;
+  padding: 20px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+}
+
+.dropbutton, .dropdown-content {
+  background-color: black;
+  border: none;
+  min-width: 125;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar a:hover, .dropbutton:hover, #menubuttons:hover {
+  background-color: gray;
+}
+
+#bgtext {
+  background-color: rgb(124, 191, 211);
+}
+
+#bgtext:hover {
+  background-color: gray;
+}
+#aboutbutton:hover, #homemenu:hover {
+   background-color: gray;
+}
+
+/* Setting the color and position of the home button */
+
+#aboutbutton {
+  float: right;
+  background-color: rgb(124, 191, 211);
+}
+
+#homemenu {
+  float: left;
+  background-color: rgb(124, 191, 211);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.activemenuitem {
+  background-color: rgb(124, 191, 211);
+}
+
+.nav-bar {
+  background: linear-gradient(-90deg, rgb(17, 17, 17), rgb(39, 42, 42), rgb(17, 17, 17));
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/* Aligning the text on the page */
+#Winner {
+  text-align: center;
+}
+
+#resetGameButton {
+  margin-left: 650px;
+}
+
+/* Aligning and styling the reset and move button */
+#AIPlayerMove, #resetGameButton {
+  display: inline-block;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#AIPlayerMove:hover, #resetGameButton:hover {
+  color: black;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+
+
+
+/* Style and layout for the Tic Tac Toe board */
+.board {
+
+  box-shadow: 0px 0px 2px 2px black;
+  background-color: rgb(90, 111, 204);
+  border: 1px solid black;
+  transition: background 0.3s;
+  display: block;
+  margin: auto;
+  width: 532px;
+  height: 560px;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#gametitle {
+  text-align: center;
+}
+
+.sq {
+  display: inline-block;
+  vertical-align: top;
+  height: 136px;
+  width: 175px;
+  margin-right: -2px;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 50px;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: background 0.3s;
+}
+
+.sq:hover {
+  background: white;
+}
+
+.bottom {
+  border-bottom: 1px solid black;
+}
+
+.right {
+  border-right: 1px solid black;
+}
